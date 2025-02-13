@@ -54,16 +54,4 @@ class DonationApp:
 
     def donate(self, amount):
         """Обработка стандартных пожертвований"""
-        self.confirmation_label.config(text=f"Спасибо за ваше пожертвование ${amount}!")
-
-    def custom_donation(self):
-        """Обработка пользовательского пожертвования"""
-        custom_amount = tk.simpledialog.askfloat("Пожертвование", "Введите сумму:")
-        if custom_amount:
-            self.confirmation_label.config(text=f"Спасибо за ваше пожертвование ${custom_amount:.2f}!")
-
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = DonationApp(root)
-    root.mainloop()
+        self.confirmation_label.config(text=f"Спасибо за ваше пожертвование ${a

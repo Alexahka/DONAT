@@ -55,3 +55,4 @@ class DonationApp:
     def donate(self, amount):
         """Обработка стандартных пожертвований"""
         self.confirmation_label.config(text=f"Спасибо за ваше пожертвование ${a
+        
